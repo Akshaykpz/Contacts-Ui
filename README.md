@@ -1,6 +1,11 @@
 # globosoft_mission_test
-hiii
-A new Flutter project.
+Welcome to the Contacts UI project! This Flutter application showcases a simple and responsive user interface for managing contacts. It is designed to be user-friendly and easy to navigate.
+
+## Features
+
+- **Contact List:** View a list of contacts with their names, profile pictures, and last contact information.
+- **Contact Details:** Click on a contact to view more details, including options for calls, messages, and video calls.
+- **Contact Settings:** Access various contact settings, such as blocking numbers, diverting to voicemail, and viewing linked contacts.
 
 ## Getting Started
 
