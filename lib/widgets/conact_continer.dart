@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../utils/constants.dart';
 
@@ -9,8 +10,8 @@ class ContactContiner extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
-      height: 250,
-      width: 370,
+      height: 250.h,
+      width: 370.w,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12),
         color: Colors.grey.shade900,

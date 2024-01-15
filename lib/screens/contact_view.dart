@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:globosoft_mission_test/widgets/app_bar.dart';
 
 import '../utils/colors.dart';
@@ -26,6 +27,7 @@ class ContactView extends StatefulWidget {
 class _HomehheState extends State<ContactView> {
   @override
   Widget build(BuildContext context) {
+    ScreenUtil.init(context);
     return Scaffold(
       backgroundColor: Appcolr().backgroundColor,
       appBar: AppBarView(
@@ -36,7 +38,7 @@ class _HomehheState extends State<ContactView> {
         child: Column(children: [
           Image.asset(
             widget.image,
-            height: 160,
+            height: 160.h,
           ),
           box,
           Text(widget.text1, style: textStyle21),
@@ -62,12 +64,12 @@ class _HomehheState extends State<ContactView> {
             thickness: 1,
           ),
           box,
-          const Flex(
+          Flex(
             direction: Axis.horizontal,
             children: [
               Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 12),
-                  child: Text("Contact settings", style: textStyles)),
+                  padding: EdgeInsets.symmetric(horizontal: 12.w),
+                  child: const Text("Contact settings", style: textStyles)),
             ],
           ),
           box2,

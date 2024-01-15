@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class Textfiled extends StatelessWidget {
   const Textfiled({super.key});
@@ -8,7 +9,7 @@ class Textfiled extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(12),
       child: Container(
-        height: 50,
+        height: 50.h,
         decoration: BoxDecoration(
             color: Colors.grey.shade800,
             borderRadius: BorderRadius.circular(25)),

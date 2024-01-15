@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../utils/colors.dart';
 import '../utils/constants.dart';
@@ -18,12 +19,12 @@ class HomePage extends StatelessWidget {
             children: [
               const Textfiled(),
               box,
-              const Flex(
+              Flex(
                 direction: Axis.horizontal,
                 children: [
                   Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 16),
-                    child: Text(
+                    padding: EdgeInsets.symmetric(horizontal: 16.w),
+                    child: const Text(
                       'Today',
                       style: textStyle,
                     ),
